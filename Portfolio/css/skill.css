@@ -1,0 +1,136 @@
+body{
+	background-image: url('../image/back res.jpg');
+	 background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#container{
+	margin: 0 auto;
+	width: 1000px; 
+	margin-bottom: 20px;
+	margin-top: 30px;
+} 
+header{
+	position: relative;
+	overflow: visible;
+
+}
+span.socials-text{
+	position: absolute;
+	right: 0px;
+	color: white;
+	padding: 2px 9px;
+	font-size: 22px;
+	cursor: pointer;
+	top: 10px;
+	border-radius: 70px;
+
+}
+
+ul.socialicons{
+	opacity: 0;
+	top: -1px ;
+	position: relative;
+	transition: all ease is;
+	z-index: -1;
+	left: -7px;
+
+}
+.pulse-button{
+	position: relative;
+	width: 35px;
+	height: 35px;
+	line-height:15px;
+	border: none;
+	box-shadow: 2px 2px 2px 2px rgb(101, 100, 100); 
+	background-color: white;
+	cursor: pointer;
+	color: white;
+	font-size: 20px;
+	margin-right: 265px;
+	margin-top: 50px;
+}
+.menu{
+	height: 100px;
+	background-color: black;
+	position: relative;
+	padding-left: 130px;
+	padding-right: 130px;
+}
+.tabs{
+	height: 116px;
+	position: absolute;
+	margin-top: -14px;
+	z-index: 100;
+}
+.tabs li{
+	float: left;
+	height: 116px;
+}
+.tabs li > a{
+	padding-top: 28px;
+	width: 120px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	font-size: 15px;
+	color: #b9b9b9;
+	text-align: center;
+	font-weight: 580;
+	text-transform: uppercase;
+	font-family: Times, Times New Roman, Georgia, serif;
+	line-height: 35px;
+	text-decoration:none ;
+	margin-right: 80px;
+}
+ a.tab-profile.active{
+	background:url('..//image/hover.png') no-repeat ;
+	/* transition: 10; */
+	 color:#cf455c ; 
+
+}
+a.tab-profile.active i{
+	animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+	0% ,20% ,50% ,80%,100%{
+		transform: translateY(0);
+	}
+	40%{
+		transform: translateY( -0px)
+	}
+
+	59%{
+		transform: translateY(-30px)
+	}
+}
+.tabs li.active a {
+	color: white;
+}
+ 
+.tabs li >a >i{
+	font-size: 45px;
+	display: block;
+	margin-bottom: 5px;
+
+}
+#Logo{
+	float: left;
+	font-weight: 900;
+	margin-left: 10px;
+	font-family:Georgia, serif;
+	text-shadow: 4px 4px 4px pink;
+	font-size: 20px;
+	font-style: italic;
+	/* display: none; */
+
+}
+h4{
+	color: #555;
+	text-shadow: 1px 0px 1px black;
+	line-height: 0px;
+	font-family:Georgia, serif;
+	font-weight: bold;
+    font-size: 120%;
+	margin-left: 7px;
+}
